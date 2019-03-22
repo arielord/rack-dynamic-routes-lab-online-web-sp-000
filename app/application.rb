@@ -14,7 +14,7 @@ class Application
         resp.status = 200
       else
         resp.write "Item not found #{item_name}"
-        resp.status = 400
+        resp.status = 200
       end
     else
       resp.write "Route not found"
